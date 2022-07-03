@@ -23,3 +23,6 @@ class Character:
         self.gender = gender
         self.age = age
         self.profession = profession
+    
+    def import_descroption(self, description) -> None:
+        self.description = description
