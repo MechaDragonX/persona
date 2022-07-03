@@ -3,6 +3,8 @@
 import character
 
 class Question:
-    number = 0
     title = ''
     answers = { '': None }
+
+    def __init__(self, title) -> None:
+        self.title = title

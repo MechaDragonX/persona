@@ -16,3 +16,10 @@ class Character:
     age = 0
     profession = ''
     description = ''
+
+    def __init__(self, given_name, surname, gender, age, profession) -> None:
+        self.given_name = given_name
+        self.surname = surname
+        self.gender = gender
+        self.age = age
+        self.profession = profession
