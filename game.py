@@ -1,7 +1,8 @@
 #!/usr/bin/env python
 
-import character
-import question
+# import character
+# import question
+import quiz
 
 class Game:
     characters = []
