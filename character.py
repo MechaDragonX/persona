@@ -19,13 +19,12 @@ class Character:
     profession = ''
     description = ''
 
-    def __init__(self, given_name, surname, gender, age, profession, description, race = '', other_name = '') -> None:
+    def __init__(self, given_name, surname, gender, age, profession, race = '', other_name = '') -> None:
         self.given_name = given_name
         self.surname = surname
         self.gender = gender
         self.age = age
         self.profession = profession
-        self.description = description
 
         self.race = race
         self.alias = other_name
