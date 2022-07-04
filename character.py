@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 
-import enum
+from enum import Enum
 
-class Gender(enum.Enum):
+class Gender(Enum):
     Male = 0,
     Female = 1,
     Nonbinary = 2,

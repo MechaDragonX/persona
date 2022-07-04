@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 
-# import character
-# import question
-import quiz
+# from character import Character
+# from question import Question
+from quiz import Quiz
 
 class Game:
     set = None

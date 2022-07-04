@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
-import character
-import question
+from character import Character
+from question import Question
 
 class Quiz:
     name = ''

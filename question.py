@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 
-from xmlrpc.client import Boolean
-import character
+from character import Character
 
 class Question:
     title = ''
@@ -10,7 +9,7 @@ class Question:
     def __init__(self, title) -> None:
         self.title = title
 
-    def import_answers(self, answers, characters) -> Boolean:
+    def import_answers(self, answers, characters) -> bool:
         if len(answers) != len(characters):
             return False
 
