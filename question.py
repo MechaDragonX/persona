@@ -4,7 +4,7 @@ from character import Character
 
 class Question:
     title = ''
-    answers = { '': None }
+    answers: dict[str, Character] = { '': None }
 
     def __init__(self, title) -> None:
         self.title = title

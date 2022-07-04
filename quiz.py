@@ -5,8 +5,8 @@ from question import Question
 
 class Quiz:
     name = ''
-    characters = []
-    questions = []
+    characters: list[Character] = []
+    questions: list[Question] = []
 
     def __init__(self, name, characters, questions) -> None:
         self.name = name
