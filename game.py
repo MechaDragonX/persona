@@ -5,7 +5,9 @@
 import quiz
 
 class Game:
-    characters = []
-    questions = []
+    set = None
     answers_chosen = []
     characters_chosen = []
+
+    def __init__(self, quiz) -> None:
+        self.set = quiz
